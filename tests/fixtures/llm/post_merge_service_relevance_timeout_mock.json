@@ -1,0 +1,9 @@
+{
+  "responses": {
+    "tgss_service_relevance__7401944240415fe1": {
+      "error_message": "OpenAI Responses API transport timeout: The read operation timed out",
+      "retryable": true,
+      "request_id": "req_timeout_after_headers_mock"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "responses": {
+    "tgss_service_relevance__7401944240415fe1": {
+      "payload": {
+        "id": "mock-live-execution86-truncated",
+        "status": "completed",
+        "model": "gpt-5-mini-2025-08-07",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"decision_code\":\"service_ambiguous\",\"confidence\":0.45,\""
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 320,
+          "output_tokens": 12
+        }
+      },
+      "latency_ms": 17
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Local env and secrets
+.env
+.env.*
+*.secret
+*.session
+
+# Local runtime and generated artifacts
+runtime_local/
+.orchestrator/
+n8n/payloads/generated/
+
+# OS / editor
+.DS_Store
+Thumbs.db

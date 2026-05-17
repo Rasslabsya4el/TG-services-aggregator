@@ -1,0 +1,10 @@
+{
+  "target": "@example_source_alpha",
+  "days_back": 14,
+  "max_messages": 30,
+  "output_timezone": "Europe/Belgrade",
+  "llm_enabled": false,
+  "publication_targets": [
+    "sheets"
+  ]
+}

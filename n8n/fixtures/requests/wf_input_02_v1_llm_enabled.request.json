@@ -1,0 +1,16 @@
+{
+  "targets": [
+    "@example_source_alpha",
+    "https://t.me/example_source_gamma"
+  ],
+  "months_back": 2,
+  "max_messages": 50,
+  "output_timezone": "Europe/Belgrade",
+  "llm_enabled": true,
+  "publication_targets": [
+    "sheets",
+    "db",
+    "dashboard"
+  ],
+  "google_sheet_id": ""
+}

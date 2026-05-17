@@ -1,0 +1,73 @@
+{
+  "run_id": "tgss-20260421T171141z-efd7da60c766",
+  "normalized_request": {
+    "llm_enabled": true
+  },
+  "raw_posts": [
+    {
+      "post_key": "tg:2104461781:40427",
+      "post_url": "https://t.me/example_source_gamma/40427",
+      "posted_at_utc": "2026-04-21T12:37:52Z",
+      "text": "",
+      "chat_id": "2104461781"
+    },
+    {
+      "post_key": "tg:2104461781:40428",
+      "post_url": "https://t.me/example_source_gamma/40428",
+      "posted_at_utc": "2026-04-21T12:37:52Z",
+      "text": "",
+      "chat_id": "2104461781"
+    }
+  ],
+  "merge_output": {
+    "providers": [
+      {
+        "provider_key": "provider:phone:5c5284669dea0f80b10eee4ff111af7c958854c2",
+        "provider_state": "candidate",
+        "identity_strength": "strong",
+        "display_name_best": "The Storage admin",
+        "canonical_name": "",
+        "provider_summary": "",
+        "service_category_hints": [
+          "it_digital"
+        ],
+        "city_codes": [
+          "belgrade"
+        ],
+        "dedupe_confidence": "high",
+        "offer_count": 2
+      }
+    ],
+    "offers": [
+      {
+        "offer_key": "offer:587b544347e47992e5c945e561239514be7f28d3",
+        "provider_key": "provider:phone:5c5284669dea0f80b10eee4ff111af7c958854c2",
+        "offer_state": "candidate",
+        "service_signature_key": "svc:d5b82e625750c649fc1421d62d81e1d714a74b05",
+        "category_primary": "",
+        "category_secondary": "",
+        "title_best": "",
+        "description_best": "",
+        "price_text_best": "",
+        "city_codes": [],
+        "service_tags": [],
+        "dedupe_confidence": "high",
+        "serbia_relevance_verdict": "",
+        "evidence_raw_post_ids": [
+          "tg:2104461781:40427",
+          "tg:2104461781:40428"
+        ],
+        "contact_snapshot_phones": [],
+        "contact_snapshot_telegram_handles": [
+          "example_contact_xi"
+        ],
+        "contact_snapshot_telegram_links": [
+          "https://t.me/example_contact_xi"
+        ]
+      }
+    ],
+    "merge_summary": {}
+  },
+  "service_run_candidate": {},
+  "run_logging": {}
+}

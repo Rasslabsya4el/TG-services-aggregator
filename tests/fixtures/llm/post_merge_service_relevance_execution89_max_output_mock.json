@@ -1,0 +1,67 @@
+{
+  "responses": {
+    "tgss_service_relevance__6160f0c886e96094": {
+      "request_id": "req_exec89class_max_output_tokens",
+      "payload": {
+        "id": "mock-live-execution89-max-output",
+        "status": "incomplete",
+        "incomplete_details": {
+          "reason": "max_output_tokens"
+        },
+        "model": "gpt-5-mini-2025-08-07",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"decision_code\":\"service_ambiguous\",\"confidence\":0.34,\"patch\":{\"offer_state\":\"candidate\",\"offer_rejection_reason\":null},\"reason_text\":\"Evidence stays too sparse to confirm a concrete Serbia service offer, while the contact-only payload still leaves room for non-service interpretations"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 1262,
+          "output_tokens": 700
+        }
+      },
+      "latency_ms": 29
+    },
+    "tgss_serbia_relevance__6160f0c886e96094": {
+      "decision": {
+        "decision_code": "serbia_accept",
+        "confidence": 0.91,
+        "patch": {
+          "serbia_relevance_verdict": "serbia_relevant",
+          "offer_state": null,
+          "offer_rejection_reason": null
+        },
+        "reason_text": "Provider context and channel point to Serbia even though the post body is empty."
+      },
+      "usage": {
+        "input_tokens": 610,
+        "output_tokens": 82
+      },
+      "latency_ms": 14
+    },
+    "tgss_category_offer__6160f0c886e96094": {
+      "decision": {
+        "decision_code": "no_change",
+        "confidence": 0.8,
+        "patch": {
+          "category_primary": null,
+          "category_secondary": null,
+          "service_tags": null,
+          "offer_summary": null
+        },
+        "reason_text": "Not enough textual evidence to refine offer categorization."
+      },
+      "usage": {
+        "input_tokens": 640,
+        "output_tokens": 74
+      },
+      "latency_ms": 15
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[project]
+name = "tg-services-aggregator"
+version = "0.1.0"
+description = "Greenfield Telegram services aggregation system for Serbia."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+authors = [
+    {name = "TG services aggregator", email = "noreply@example.invalid"},
+]
+dependencies = [
+    "telethon==1.42.0",
+    "tzdata>=2025.2,<2026.0",
+    "psycopg[binary] (>=3.2,<4)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9,<10)"
+]

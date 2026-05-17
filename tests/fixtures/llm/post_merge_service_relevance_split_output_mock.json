@@ -1,0 +1,32 @@
+{
+  "responses": {
+    "tgss_service_relevance__7401944240415fe1": {
+      "payload": {
+        "id": "mock-live-split",
+        "status": "completed",
+        "model": "gpt-5-mini-2025-08-07",
+        "output": [
+          {
+            "type": "message",
+            "role": "assistant",
+            "content": [
+              {
+                "type": "output_text",
+                "text": "{\"decision_code\":\"service_accept\","
+              },
+              {
+                "type": "output_text",
+                "text": "\"confidence\":0.93,\"patch\":{\"offer_state\":\"accepted\",\"offer_rejection_reason\":null},\"reason_text\":\"Negative wording is present, but the evidence still describes a concrete cleaning service offer.\"}"
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "input_tokens": 320,
+          "output_tokens": 54
+        }
+      },
+      "latency_ms": 17
+    }
+  }
+}

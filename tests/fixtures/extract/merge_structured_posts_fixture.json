@@ -1,0 +1,263 @@
+{
+  "run_id": "tgss-test-merge-fixture",
+  "workflow_stage": "extract_deterministic",
+  "extraction_contract_version": "extr_layer_01_v1",
+  "structured_posts_total": 3,
+  "structured_posts": [
+    {
+      "raw_post_id": "tg:5001:101",
+      "source_platform": "telegram",
+      "run_id": "tgss-test-merge-fixture",
+      "source_ref": {
+        "post_key": "tg:5001:101",
+        "chat_id": "5001",
+        "message_id": 101,
+        "source_channel_key": "example_source_kappa",
+        "chat_title": "Serbia Services",
+        "chat_kind": "channel",
+        "chat_username": "example_source_kappa",
+        "post_url": "https://t.me/example_source_kappa/101",
+        "posted_at_utc": "2026-04-19T10:00:00Z"
+      },
+      "author_signals": {
+        "sender_id": "9101",
+        "sender_kind": "user",
+        "sender_title": "Barber Belgrade",
+        "sender_username": "example_barber_bgd",
+        "sender_profile_url": "https://t.me/example_barber_bgd",
+        "post_author": "Barber Belgrade"
+      },
+      "contacts": {
+        "phones": [
+          "381600000003"
+        ],
+        "emails": [],
+        "telegram_handles": [
+          "example_barber_bgd"
+        ],
+        "telegram_links": [
+          "https://t.me/example_barber_bgd"
+        ],
+        "websites": [
+          "barber.rs"
+        ]
+      },
+      "role_category_hints": [
+        {
+          "hint_code": "beauty_hair",
+          "score": 3,
+          "matched_keywords": [
+            "barber",
+            "haircut"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "location_signals": {
+        "city": "belgrade",
+        "matched_keywords": [
+          "belgrade"
+        ]
+      },
+      "price_signals": {
+        "price_texts": [
+          "from 20 eur"
+        ],
+        "currency_hints": [
+          "eur"
+        ],
+        "price_min": null,
+        "price_max": null
+      },
+      "identity_signals": [
+        "phone:381600000003",
+        "tg:barber_bgd",
+        "tg_link:https://t.me/example_barber_bgd",
+        "site:barber.rs",
+        "weak_text:barber-service-a"
+      ],
+      "text": {
+        "text_raw": "Barber in Belgrade. Haircut and beard trim. from 20 eur. Telegram @example_barber_bgd",
+        "text_normalized": "Barber in Belgrade. Haircut and beard trim. from 20 eur. Telegram @example_barber_bgd",
+        "text_hash_normalized": "barber-service-a",
+        "text_length": 78,
+        "content_flags": [
+          "has_contacts",
+          "has_role_hints",
+          "has_city",
+          "has_price"
+        ]
+      }
+    },
+    {
+      "raw_post_id": "tg:5001:102",
+      "source_platform": "telegram",
+      "run_id": "tgss-test-merge-fixture",
+      "source_ref": {
+        "post_key": "tg:5001:102",
+        "chat_id": "5001",
+        "message_id": 102,
+        "source_channel_key": "example_source_kappa",
+        "chat_title": "Serbia Services",
+        "chat_kind": "channel",
+        "chat_username": "example_source_kappa",
+        "post_url": "https://t.me/example_source_kappa/102",
+        "posted_at_utc": "2026-04-20T08:15:00Z"
+      },
+      "author_signals": {
+        "sender_id": "9101",
+        "sender_kind": "user",
+        "sender_title": "Barber Belgrade",
+        "sender_username": "example_barber_bgd",
+        "sender_profile_url": "https://t.me/example_barber_bgd",
+        "post_author": "Barber Belgrade"
+      },
+      "contacts": {
+        "phones": [
+          "381600000003"
+        ],
+        "emails": [],
+        "telegram_handles": [
+          "example_barber_bgd"
+        ],
+        "telegram_links": [
+          "https://t.me/example_barber_bgd"
+        ],
+        "websites": [
+          "barber.rs"
+        ]
+      },
+      "role_category_hints": [
+        {
+          "hint_code": "beauty_hair",
+          "score": 2,
+          "matched_keywords": [
+            "haircut",
+            "beard"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "location_signals": {
+        "city": "belgrade",
+        "matched_keywords": [
+          "belgrade"
+        ]
+      },
+      "price_signals": {
+        "price_texts": [
+          "from 25 eur"
+        ],
+        "currency_hints": [
+          "eur"
+        ],
+        "price_min": null,
+        "price_max": null
+      },
+      "identity_signals": [
+        "phone:381600000003",
+        "tg:barber_bgd",
+        "tg_link:https://t.me/example_barber_bgd",
+        "site:barber.rs",
+        "weak_text:barber-service-b"
+      ],
+      "text": {
+        "text_raw": "Barber haircut and beard trim in Belgrade. Book via Telegram @example_barber_bgd. from 25 eur",
+        "text_normalized": "Barber haircut and beard trim in Belgrade. Book via Telegram @example_barber_bgd. from 25 eur",
+        "text_hash_normalized": "barber-service-b",
+        "text_length": 86,
+        "content_flags": [
+          "has_contacts",
+          "has_role_hints",
+          "has_city",
+          "has_price"
+        ]
+      }
+    },
+    {
+      "raw_post_id": "tg:5001:103",
+      "source_platform": "telegram",
+      "run_id": "tgss-test-merge-fixture",
+      "source_ref": {
+        "post_key": "tg:5001:103",
+        "chat_id": "5001",
+        "message_id": 103,
+        "source_channel_key": "example_source_kappa",
+        "chat_title": "Serbia Services",
+        "chat_kind": "channel",
+        "chat_username": "example_source_kappa",
+        "post_url": "https://t.me/example_source_kappa/103",
+        "posted_at_utc": "2026-04-21T09:30:00Z"
+      },
+      "author_signals": {
+        "sender_id": "9101",
+        "sender_kind": "user",
+        "sender_title": "Barber Belgrade",
+        "sender_username": "example_barber_bgd",
+        "sender_profile_url": "https://t.me/example_barber_bgd",
+        "post_author": "Barber Belgrade"
+      },
+      "contacts": {
+        "phones": [
+          "381600000003"
+        ],
+        "emails": [],
+        "telegram_handles": [
+          "example_barber_bgd"
+        ],
+        "telegram_links": [
+          "https://t.me/example_barber_bgd"
+        ],
+        "websites": [
+          "barber.rs"
+        ]
+      },
+      "role_category_hints": [
+        {
+          "hint_code": "education_tutoring",
+          "score": 3,
+          "matched_keywords": [
+            "training",
+            "course"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "location_signals": {
+        "city": "belgrade",
+        "matched_keywords": [
+          "belgrade"
+        ]
+      },
+      "price_signals": {
+        "price_texts": [
+          "from 100 eur"
+        ],
+        "currency_hints": [
+          "eur"
+        ],
+        "price_min": null,
+        "price_max": null
+      },
+      "identity_signals": [
+        "phone:381600000003",
+        "tg:barber_bgd",
+        "tg_link:https://t.me/example_barber_bgd",
+        "site:barber.rs",
+        "weak_text:barber-course-c"
+      ],
+      "text": {
+        "text_raw": "Barber training course in Belgrade. Workshop for beginners with mentoring. from 100 eur",
+        "text_normalized": "Barber training course in Belgrade. Workshop for beginners with mentoring. from 100 eur",
+        "text_hash_normalized": "barber-course-c",
+        "text_length": 92,
+        "content_flags": [
+          "has_contacts",
+          "has_role_hints",
+          "has_city",
+          "has_price"
+        ]
+      }
+    }
+  ]
+}

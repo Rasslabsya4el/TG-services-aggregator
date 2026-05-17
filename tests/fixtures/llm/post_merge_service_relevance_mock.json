@@ -1,0 +1,20 @@
+{
+  "responses": {
+    "tgss_service_relevance__7401944240415fe1": {
+      "decision": {
+        "decision_code": "service_accept",
+        "confidence": 0.93,
+        "patch": {
+          "offer_state": "accepted",
+          "offer_rejection_reason": null
+        },
+        "reason_text": "Negative wording is present, but the evidence still describes a concrete cleaning service offer."
+      },
+      "usage": {
+        "input_tokens": 320,
+        "output_tokens": 54
+      },
+      "latency_ms": 17
+    }
+  }
+}

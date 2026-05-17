@@ -1,0 +1,70 @@
+{
+  "run_id": "strict-schema-repro",
+  "normalized_request": {
+    "llm_enabled": true
+  },
+  "raw_posts": [
+    {
+      "raw_post_id": "raw-1",
+      "text_raw": "Wanted apartment cleaning service in Belgrade for a family. Need upholstery cleaning and general cleanup.",
+      "post_url": "https://t.me/example/1",
+      "posted_at_utc": "2026-04-21T10:00:00Z",
+      "source_channel_key": "demo_channel"
+    }
+  ],
+  "merge_output": {
+    "providers": [
+      {
+        "provider_key": "prov-1",
+        "provider_state": "candidate",
+        "identity_strength": "strong",
+        "display_name_best": "Clean Home Belgrade",
+        "canonical_name": "Clean Home Belgrade",
+        "provider_summary": "Apartment cleaning and upholstery cleaning.",
+        "service_category_hints": [
+          "cleaning"
+        ],
+        "city_codes": [
+          "belgrade"
+        ],
+        "dedupe_confidence": "high",
+        "offer_count": 1,
+        "evidence_raw_post_ids": [
+          "raw-1"
+        ]
+      }
+    ],
+    "offers": [
+      {
+        "offer_key": "offer-1",
+        "provider_key": "prov-1",
+        "offer_state": "candidate",
+        "service_signature_key": "sig-1",
+        "category_primary": "cleaning",
+        "category_secondary": "home_cleaning",
+        "title_best": "Wanted apartment cleaning service in Belgrade",
+        "description_best": "Need careful apartment cleaning, upholstery cleaning, and a full general cleanup for the flat.",
+        "price_text_best": "",
+        "city_codes": [
+          "belgrade"
+        ],
+        "service_tags": [
+          "cleaning",
+          "upholstery"
+        ],
+        "dedupe_confidence": "low",
+        "serbia_relevance_verdict": "serbia_relevant",
+        "offer_summary": "Apartment cleaning and upholstery cleaning.",
+        "evidence_raw_post_ids": [
+          "raw-1"
+        ],
+        "contact_snapshot_phones": [],
+        "contact_snapshot_telegram_handles": [],
+        "contact_snapshot_telegram_links": []
+      }
+    ],
+    "merge_summary": {}
+  },
+  "service_run_candidate": {},
+  "run_logging": {}
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "tgss-test-legacy-derived",
+  "fetch_summary": {
+    "run_id": "tgss-test-legacy-derived",
+    "fetch_targets_requested": 1,
+    "fetch_targets_succeeded": 1,
+    "fetch_targets_failed": 0,
+    "raw_posts_total": 1,
+    "fetch_results_by_target": {
+      "example_source_iota": {
+        "target_key": "example_source_iota",
+        "telegram_target_input": "@example_source_iota",
+        "telegram_target_resolved": "@example_source_iota",
+        "ok": true,
+        "status": "success",
+        "http_status": 200,
+        "raw_posts_emitted": 1,
+        "messages_seen": 1,
+        "stopped_reason": "history_exhausted",
+        "checkpoint_message_id": "202",
+        "error_type": "",
+        "error_message": "",
+        "warnings": []
+      }
+    },
+    "fetch_failures": []
+  },
+  "raw_posts": [
+    {
+      "chat_id": "2002",
+      "chat_title": "Belgrade Services Board",
+      "chat_kind": "supergroup",
+      "chat_kind_label": "group",
+      "message_id": 202,
+      "post_key": "tg:2002:202",
+      "post_url": "https://t.me/example_source_iota/202",
+      "posted_at_utc": "2026-04-18T08:30:00Z",
+      "posted_at_local": "2026-04-18T10:30:00+02:00",
+      "posted_year": 2026,
+      "posted_month": "04",
+      "posted_day": "18",
+      "posted_year_month": "2026-04",
+      "posted_iso_week": "2026-W16",
+      "text": "Ремонт квартир в Белграде и Нови Саде\ntelefon: +381600000012\ntelegram: example_builder_contact\nЦена: от 30 eur\nЭлектрик, сантехник, плитка",
+      "text_normalized": "Ремонт квартир в Белграде и Нови Саде telefon: +381600000012 telegram: example_builder_contact Цена: от 30 eur Электрик, сантехник, плитка",
+      "text_length": 133,
+      "has_media": false,
+      "media_type": "",
+      "views": 800,
+      "forwards": 2,
+      "replies": 0,
+      "grouped_id": null,
+      "sender_id": "777",
+      "sender_kind": "user",
+      "sender_title": "Master Balkan",
+      "sender_username": "",
+      "sender_profile_url": "",
+      "post_author": "Master Balkan",
+      "_run_id": "tgss-test-legacy-derived",
+      "_target_key": "example_source_iota",
+      "_telegram_target_input": "@example_source_iota",
+      "_telegram_target_resolved": "@example_source_iota"
+    }
+  ]
+}
